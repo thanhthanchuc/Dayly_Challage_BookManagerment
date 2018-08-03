@@ -12,7 +12,7 @@ namespace Fa.DataAccessLayer.ManagermentContext
     {
         public BookManagermentContext():base("name=BookConnectionString")
         {
-            
+
         }
 
         public DbSet<Category> Categories { get; set; }

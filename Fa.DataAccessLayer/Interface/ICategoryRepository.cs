@@ -11,8 +11,9 @@ namespace Fa.DataAccessLayer.Interface
     {
         IEnumerable<Category> GetCategories();
         Category GetCategoryId(int categoryId);
-        int Insert(Category category);
-        int Update(Category category);
-        int Delete(int categoryId);
+        void Insert(Category category);
+        void Update(Category category);
+        void Delete(int categoryId);
+        void Save();
     }
 }
