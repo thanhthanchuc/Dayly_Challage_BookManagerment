@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fa.Model
+namespace Fa.Model.Model
 {
-    public class Class1
+    public class Category
     {
+
     }
 }
