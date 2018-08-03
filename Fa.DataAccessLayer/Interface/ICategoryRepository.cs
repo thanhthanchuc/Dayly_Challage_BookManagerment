@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fa.DataAccessLayer
+namespace Fa.DataAccessLayer.Interface
 {
-    public class Class1
+    public interface ICategoryRepository : IDisposable
     {
     }
 }
