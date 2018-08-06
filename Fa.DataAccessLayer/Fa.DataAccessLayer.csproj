@@ -48,10 +48,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoryRepository.cs" />
+    <Compile Include="Interface\IBookInPublisherRepository.cs" />
     <Compile Include="Interface\IAuthorRepository.cs" />
     <Compile Include="Interface\IBookRepository.cs" />
     <Compile Include="Interface\ICategoryRepository.cs" />
     <Compile Include="Interface\ICustomerRepository.cs" />
+    <Compile Include="Interface\IOrder.cs" />
+    <Compile Include="Interface\IOrderDetail.cs" />
+    <Compile Include="Interface\IPublisher.cs" />
     <Compile Include="ManagermentContext\BookManagermentContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
