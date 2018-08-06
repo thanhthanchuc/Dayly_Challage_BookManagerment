@@ -27,9 +27,8 @@ namespace Fa.Model.Model
         public string Email { get; set; }
 
         [Required]
-        [Phone]
         [StringLength(50)]
-        public int Phone { get; set; }
+        public string Phone { get; set; }
 
         [Required]
         public string Address { get; set; }

@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Fa.Model.Model;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Fa.Model.Model;
 
 namespace Fa.DataAccessLayer.ManagermentContext
 {
-    class BookManagermentContext : DbContext
+    public class BookManagermentContext : DbContext
     {
         public BookManagermentContext():base("name=BookConnectionString")
         {
