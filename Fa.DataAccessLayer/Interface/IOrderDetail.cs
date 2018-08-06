@@ -1,16 +1,16 @@
-﻿using System;
+﻿using Fa.Model.Model;
+using System;
 using System.Collections.Generic;
-using Fa.Model.Model;
 
 namespace Fa.DataAccessLayer.Interface
 {
     public interface IOrderDetail : IDisposable
     {
-        IEnumerable<Order> GetOrders();
-        Order GetOrder(int orderId);
-        void Insert(Order order);
-        void Update(Order order);
-        void Delete(int orderId);
+        IEnumerable<OrderDetail> GetOrderDetails();
+        OrderDetail GetOrderDetail(int orderId);
+        void Insert(OrderDetail orderDetail);
+        void Update(OrderDetail orderDetail);
+        void Delete(int orderDetailId);
         void Save();
     }
 }

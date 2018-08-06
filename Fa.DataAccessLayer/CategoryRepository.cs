@@ -1,12 +1,10 @@
-﻿using System;
+﻿using Fa.DataAccessLayer.Interface;
+using Fa.DataAccessLayer.ManagermentContext;
+using Fa.Model.Model;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Fa.DataAccessLayer.Interface;
-using Fa.DataAccessLayer.ManagermentContext;
-using Fa.Model.Model;
 
 namespace Fa.DataAccessLayer
 {
